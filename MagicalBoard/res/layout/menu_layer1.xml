@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#f89723"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+   	<LinearLayout 
+   	    android:orientation="vertical"
+   	    android:layout_width="wrap_content"
+   	    android:layout_height="match_parent">
+   	    <ScrollView 
+   	        android:layout_width="wrap_content"
+   	        android:layout_height="wrap_content">
+   	        <LinearLayout 
+   	            android:orientation="vertical"
+   	            android:layout_width="wrap_content"
+   	            android:layout_height="wrap_content">
+
+   	            <Button
+   	                android:id="@+id/layer1_button1"
+   	                android:layout_width="wrap_content"
+   	                android:layout_height="wrap_content"
+   	                android:text="画笔" />
+   	            
+   	            <Button
+   	                android:id="@+id/layer1_button7"
+   	                android:layout_width="wrap_content"
+   	                android:layout_height="wrap_content"
+   	                android:visibility="gone"
+   	                android:text="文本" />
+   	            
+   	            <Button
+   	                android:id="@+id/layer1_button8"
+   	                android:layout_width="wrap_content"
+   	                android:layout_height="wrap_content"
+   	                android:text="图片" />
+
+   	            <Button
+   	                android:id="@+id/layer1_button2"
+   	                android:layout_width="wrap_content"
+   	                android:layout_height="wrap_content"
+   	                android:text="板擦" />
+   	            
+   	            <Button
+   	                android:id="@+id/layer1_button3"
+   	                android:layout_width="wrap_content"
+   	                android:layout_height="wrap_content"
+   	                android:text="全屏" />
+   	            
+   	            <Button
+   	                android:id="@+id/layer1_button4"
+   	                android:layout_width="wrap_content"
+   	                android:layout_height="wrap_content"
+   	                android:visibility="gone"
+   	                android:text="图层" />
+
+   	            <Button
+   	                android:id="@+id/layer1_button5"
+   	                android:layout_width="wrap_content"
+   	                android:layout_height="wrap_content"
+   	                android:text="撤销" />
+   	            
+				<Button
+				    android:id="@+id/layer1_button6"
+   	                android:layout_width="wrap_content"
+   	                android:layout_height="wrap_content"
+   	                android:visibility="gone"
+   	                android:text="前进" />
+   	        </LinearLayout>
+   	        
+   	    </ScrollView>
+   	</LinearLayout>
+   	<LinearLayout 
+   	    android:orientation="vertical"
+   	    android:layout_width="wrap_content"
+   	    android:layout_height="match_parent">
+   	     <ScrollView
+   	        android:id="@+id/layer1_scrollpool"
+   	        android:layout_width="wrap_content"
+   	        android:layout_height="wrap_content">
+   	     </ScrollView>
+   	</LinearLayout>
+</LinearLayout>

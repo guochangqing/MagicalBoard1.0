@@ -1,0 +1,26 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#f8ddd2"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/layer3_button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="大" />
+
+    <Button
+        android:id="@+id/layer3_button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="中" />
+
+    <Button
+        android:id="@+id/layer3_button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="小" />
+
+</LinearLayout>

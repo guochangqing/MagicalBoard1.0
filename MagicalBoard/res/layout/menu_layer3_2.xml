@@ -1,0 +1,26 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#f8ddd2"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/layer3_button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="红" />
+
+    <Button
+        android:id="@+id/layer3_button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="绿" />
+
+    <Button
+        android:id="@+id/layer3_button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="蓝" />
+
+</LinearLayout>

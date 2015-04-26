@@ -1,0 +1,41 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+	<LinearLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:background="#f897ff"
+	    android:orientation="vertical" >
+
+	    <Button
+	        android:id="@+id/layer2_button1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="大小" />
+
+	    <Button
+	        android:id="@+id/layer2_button2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="颜色" />
+
+	    <Button
+	        android:id="@+id/layer2_button3"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="形状" />
+	</LinearLayout>
+	<LinearLayout 
+   	    android:orientation="vertical"
+   	    android:layout_width="wrap_content"
+   	    android:layout_height="match_parent">
+   	     <ScrollView
+   	        android:id="@+id/layer2_scrollpool"
+   	        android:layout_width="wrap_content"
+   	        android:layout_height="wrap_content">
+   	     </ScrollView>
+   	</LinearLayout>
+</LinearLayout>

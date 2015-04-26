@@ -1,0 +1,26 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#f897ff"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/layer2_button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="增加" />
+
+    <Button
+        android:id="@+id/layer2_button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="删除" />
+    
+    <Button
+        android:id="@+id/layer2_button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="合并" />
+
+</LinearLayout>
